@@ -3,6 +3,7 @@
 }
 #nav_text {
   color: #1081BF;
+  text-decoration: none;
 }
 #image-container {
   position: relative;
@@ -25,4 +26,10 @@ h4 {
   top: 50px;
   left: 75px;
   right: 325px;
+}
+a {
+  color: #1081BF;
+}
+#resume {
+  padding: 10px;
 }

@@ -1,0 +1,19 @@
+<div id="image-container"
+     ng-controller="KeaController as kea">
+  <div>
+    <input type="image" 
+           src="https://farm9.staticflickr.com/8523/8487516746_9f88dfa6f2_b.jpg"
+           class="img-container"
+           name="keaBackground"
+           value=""
+           ng-click="keaWisdom = !keaWisdom">
+    <div class="bubble" 
+         ng-show="keaWisdom">
+      <input type="button"
+             id="bubble"
+             value=""
+             ng-click="kea.newQuote()">
+      <h4>{{kea.getQuote.label}}</h4> 
+    </div>
+  </div>
+</div>
